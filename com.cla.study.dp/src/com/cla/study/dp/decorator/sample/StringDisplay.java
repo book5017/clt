@@ -1,6 +1,8 @@
 package com.cla.study.dp.decorator.sample;
 public class StringDisplay extends Display {
+	
     private String string;                         
+    
     public StringDisplay(String string) {           
         this.string = string;
     }
